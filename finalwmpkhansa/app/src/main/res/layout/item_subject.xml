@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@drawable/rounded_background"
+    android:gravity="center_vertical"
+    android:layout_marginBottom="8dp"
+    android:elevation="2dp">
+
+    <!-- Subject Name TextView -->
+    <TextView
+        android:id="@+id/subjectNameTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Subject Name"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:paddingEnd="8dp" />
+
+    <!-- Credits TextView -->
+    <TextView
+        android:id="@+id/creditsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credits: 3"
+        android:textSize="14sp"
+        android:textColor="#8e8e8e" />
+
+    <!-- Checkbox -->
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="4dp"
+        android:buttonTint="@color/colorPrimary" />
+</LinearLayout>

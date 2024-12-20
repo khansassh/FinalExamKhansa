@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "659432918378",
+    "project_id": "finalkhansawmp",
+    "storage_bucket": "finalkhansawmp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659432918378:android:8d66a176d7e88ba5e22913",
+        "android_client_info": {
+          "package_name": "com.example.finalwmp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBogtlhY-iEMrA1ajcbj7IwYO53TC4Guy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
